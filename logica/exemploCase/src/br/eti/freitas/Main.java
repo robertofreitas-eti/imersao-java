@@ -12,8 +12,8 @@ public class Main {
         int tipoElogio;
 
         System.out.println("**** E L O G I A D O R ****");
-        System.out.println("Tipos de elogio:\n\n\n\11\0-Elogio profissional\n\12\0-Elogio físcio\n\13\0-Elogio pessoal\n");
-        System.out.println("Informe o tipo de elogio: ");
+        System.out.println("Tipos de elogio:\n\n1-Elogio profissional\n2-Elogio físcio\n3-Elogio pessoal\n");
+        System.out.print("Informe o tipo de elogio: ");
         tipoElogio = sc.nextInt();
         switch (tipoElogio) {
             case 1:
