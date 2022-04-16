@@ -2,6 +2,12 @@ package br.eti.freitas;
 
 import java.util.Scanner;
 
+/**
+ * Imersão Java - Trabalhando com vetores
+ *
+ * @author Roberto Freitas
+ * @version 1.0
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -11,9 +17,7 @@ public class Main {
         double notaAluno[] = new double[5];
         double mediaClasse, somaNota = 0;
 
-        System.out.println("+------------------------------------------------------------------+");
-        System.out.println("| EXERCICIOS - Trabalhando com vetores                             |");
-        System.out.println("+------------------------------------------------------------------+");
+        System.out.println("Trabalhando com ventores\n-----------------------------------------");
 
         for (int i=0; i<=4; i++) {
             System.out.print("Digite a nota do " + (i+1) + " aluno: " );

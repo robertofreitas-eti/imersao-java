@@ -2,6 +2,12 @@ package br.eti.freitas;
 
 import java.util.Scanner;
 
+/**
+ * Imersão Java - Uso de desvios condicionais complexos
+ *
+ * @author Roberto Freitas
+ * @version 1.0
+ */
 public class Main {
 
     public static void main(String[] args) {

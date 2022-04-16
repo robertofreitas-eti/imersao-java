@@ -1,6 +1,11 @@
 package br.eti.freitas;
 
-import jdk.swing.interop.SwingInterOpUtils;
+/**
+ * Imersão Java - Uso e manipulação de vetores
+ *
+ * @author Roberto Freitas
+ * @version 1.0
+ */
 
 public class Main {
 

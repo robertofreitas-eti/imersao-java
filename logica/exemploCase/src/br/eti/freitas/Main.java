@@ -1,8 +1,13 @@
 package br.eti.freitas;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;
 
+/**
+ * Imersão Java - Uso do switch case
+ *
+ * @author Roberto Freitas
+ * @version 1.0
+ */
 public class Main {
 
     public static void main(String[] args) {

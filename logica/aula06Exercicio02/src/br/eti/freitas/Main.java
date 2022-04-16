@@ -1,5 +1,10 @@
 package br.eti.freitas;
-
+/**
+ * Imersão Java - Uso de arrays multidimensionais
+ *
+ * @author Roberto Freitas
+ * @version 1.0
+ */
 public class Main {
 
     public static void main(String[] args) {
