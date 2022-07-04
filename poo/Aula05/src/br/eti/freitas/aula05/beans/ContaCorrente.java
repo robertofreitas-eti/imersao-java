@@ -8,10 +8,14 @@ public class ContaCorrente extends ContaBancaria {
 	public ContaCorrente() {
 	}
 
-	public ContaCorrente(double limiteCredito, double taxa) {
+
+	public ContaCorrente(Banco banco, int numero, int agencia, Double saldo, Cliente cliente, double limiteCredito,
+			double taxa) {
+		super(banco, numero, agencia, saldo, cliente);
 		this.limiteCredito = limiteCredito;
 		this.taxa = taxa;
 	}
+
 
 	public double getLimiteCredito() {
 		return limiteCredito;

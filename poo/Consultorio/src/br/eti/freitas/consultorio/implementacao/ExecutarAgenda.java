@@ -19,6 +19,7 @@ public class ExecutarAgenda {
 		Agendamento ag01 = new Agendamento(pc01, md01,fc01, formatDate.parse("2019/03/22"),250.00);
 		
 		System.out.println(ag01.consultaAgendamento());
+		
 	}	
 	
 }
